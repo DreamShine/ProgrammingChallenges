@@ -6,6 +6,6 @@ public class KaprekarsRoutine
 
 
     public static int computeLargestNumber(int n) {
-        return 0;
+        return n;
     }
 }
