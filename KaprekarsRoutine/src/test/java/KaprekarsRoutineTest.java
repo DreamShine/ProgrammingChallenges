@@ -31,4 +31,10 @@ public class KaprekarsRoutineTest
     {
         assertThat(KaprekarsRoutine.computeLargestNumber(0001), is(1));
     }
+
+    @Test
+    public void the_number_one_zero_zero_zero_should_return_one_as_the_largest_number()
+    {
+        assertThat(KaprekarsRoutine.computeLargestNumber(1000), is(1));
+    }
 }
